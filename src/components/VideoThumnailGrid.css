@@ -1,0 +1,15 @@
+/*
+.videos-grid-container {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+*/
+
+/*
+.videos-grid-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 90vw;
+}
+*/

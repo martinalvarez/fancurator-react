@@ -1,0 +1,13 @@
+nav {
+    border: 1px solid white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin: 5px;
+}
