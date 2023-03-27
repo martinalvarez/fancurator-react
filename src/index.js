@@ -1,21 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-// import App from './App';
-import Home from './components/Home';
 import reportWebVitals from './reportWebVitals';
-import About from './components/About';
-
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import About from './pages/About';
+import Home from './pages/Home';
+import Video from './pages/Video';
+import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path='/about' element={<About />} ></Route>
-      </Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/video/:videoId" element={<Video />} />
+       </Routes>
     </BrowserRouter>
   </React.StrictMode>
 );

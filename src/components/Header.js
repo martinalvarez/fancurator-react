@@ -1,17 +1,18 @@
+import HamburguerMenu from "./HamburguerMenu";
 import Nav from "./Nav";
 import './Header.css';
-import HamburguerMenu from "./HamburguerMenu";
-
 
 function Header() {
     return (
         <header>
-            <div>
+            <div className="site-name">
                 <h1>FanCurator</h1>
             </div>
+
             <div className="header-navigator">
                 <Nav />
             </div>
+            
             <div className="header-hamburguer-menu">
                 <HamburguerMenu />
             </div>            

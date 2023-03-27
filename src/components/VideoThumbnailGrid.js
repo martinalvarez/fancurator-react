@@ -1,5 +1,5 @@
-import VideoThumbnail from "./VideoThumnail";
-import './VideoThumnailGrid.css';
+import VideoThumbnail from "./VideoThumbnail";
+import './VideoThumbnailGrid.css';
 
 const videos = [
     {
@@ -25,7 +25,7 @@ const videos = [
     },    
 ];
 
-function VideoThumnailGrid() {
+function VideoThumbnailGrid() {
     return (
         <div className="videos-grid-container">
             {videos.map((video) => 
@@ -35,4 +35,4 @@ function VideoThumnailGrid() {
     );
 }
 
-export default VideoThumnailGrid;
+export default VideoThumbnailGrid;

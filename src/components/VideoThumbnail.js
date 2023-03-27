@@ -1,4 +1,4 @@
-import './VideoThumnail.css';
+import './VideoThumbnail.css';
 
 function VideoThumbnail({ video }) {
     return (

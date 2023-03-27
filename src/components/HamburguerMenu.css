@@ -1,0 +1,38 @@
+.hamburguer-menu {
+    width: 2rem;
+    height: 2rem;
+}
+
+.hamburguer-close {
+    width: 2rem;
+    height: 2rem;    
+}
+
+.hamburguer-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border: 1px solid white;
+
+    top: 0;
+    right: 0;
+    z-index: 2;
+    background-color: grey;
+}
+
+.hamburguer-links a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.hamburguer-links a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.hamburguer-wrapper {
+    position: relative;
+    border: 1px solid blue;
+
+}

@@ -1,12 +1,15 @@
-import './Nav.css';
 import { Link } from 'react-router-dom';
+import './Nav.css';
 
 function Nav() {
     return (
         <nav>
-            <ul>
+            <ul className='nav-links'>
                 <li>
-                    <Link to="about">About</Link>
+                    <Link to="/">Home</Link>
+                </li>                
+                <li>
+                    <Link to="/about">About</Link>
                 </li>
                 <li>Videos</li>
                 <li>Articles</li>

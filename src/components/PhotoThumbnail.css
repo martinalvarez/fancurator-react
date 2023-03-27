@@ -1,0 +1,38 @@
+.photo-thumbnail {
+    /* border: 1px solid white; */
+    margin: 0.5rem;
+    /* border-radius: 1rem; */
+    cursor: pointer;
+}
+
+.photo-thumbnail-hover {
+    display: none;
+    background-color: black;
+}
+
+.photo-thumbnail-wrap {
+    visibility: hidden;
+}
+@media screen and (min-width: 640px) {
+    .photo-thumbnail-wrap {
+        visibility: visible;        
+    }
+}
+
+.photo-thumbnail-hover-active {
+    display: inline;
+    border: 1px solid white;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.photo-thumbnail-wrapper {
+    position: relative;
+}
+
+.detail {
+    padding: 1rem;
+}
