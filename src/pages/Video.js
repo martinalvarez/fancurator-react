@@ -22,7 +22,7 @@ function Video() {
                 </div>
 
                 <div className='video-detail'>
-                    <h1>Detail</h1>
+                    <h1>Detalle</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id ex massa. Phasellus lobortis eros in diam placerat, quis auctor nisi fermentum. Etiam vulputate turpis neque, quis vestibulum dui congue ut. Pellentesque varius at erat vitae suscipit. Curabitur dolor nisl, dignissim ac ante non, tempor feugiat lorem. Aenean finibus arcu sem, et posuere ligula sagittis ac. Donec gravida est in est commodo, nec scelerisque enim accumsan. Pellentesque a mi erat. Donec porta suscipit nisi, at sodales ante placerat ut. Ut id nulla non libero pretium fermentum sed eget lacus. Donec pulvinar mollis lorem ac iaculis. Cras ornare magna nec tortor pharetra, egestas rutrum turpis aliquet. Nunc faucibus ipsum sit amet justo imperdiet, sit amet rhoncus metus fermentum. Donec vitae arcu ac nunc blandit dapibus. Etiam at eleifend metus.
 

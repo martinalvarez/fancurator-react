@@ -1,8 +1,10 @@
+
 h1 {
-    font-size: 40px;
+    /* font-size: 40px; */
     color: red;
 }
 
+/*
 .site-name {
     width: 500px;
     border: 1px solid white;
@@ -11,7 +13,7 @@ h1 {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
 }
 
@@ -33,3 +35,9 @@ header {
         display: none;
     }    
 }
+
+.site-name {
+    border: 1px solid blue;
+    
+}
+*/

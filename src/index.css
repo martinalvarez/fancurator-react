@@ -1,4 +1,14 @@
+/*
 body {
   background-color: black;
   color: white;
+  box-sizing: border-box;
+}
+*/
+
+body {
+  margin: 0;
+  background-color: white;
+  color: black;
+  box-sizing: border-box;
 }

@@ -1,14 +1,17 @@
 /* refactor  */
+/*
 .layout-brand {
     width: 80%;
 }
 
 .layout-container {
     background-color: black;    
+    border: 1px solid white;
     color: white;
 }
 
 .layout-footer {
+    border: 1px solid white;
     height: 5rem;
     padding: 1rem;
 }
@@ -24,6 +27,7 @@
 
 .layout-header {
     background-color: black;
+    border: 1px solid white;
     display: flex;    
     height: 5rem;
     left: 0;
@@ -35,15 +39,14 @@
 }
 
 .layout-main {
-    margin-top: 7rem;
-    min-height: 80vh;
-    padding: 1rem;
+    border: 1px solid white;
+    height: 100vh;    
+    margin-top: 5rem;
     position: relative;
-   
 }
 
 .layout-hamburguer-links {
-    background-color: black;
+    border: 1px solid white;    
     font-size: 1rem;    
     padding: 1rem;    
     position: absolute;
@@ -67,42 +70,5 @@
 .layout-hamburguer-links ul {
     list-style-type: none;
 }
+*/
 /* refactor  */
-
-
-
-.layout-menu {
-    display: none;
-    margin-right: 2rem;
-}
-
-@media screen and (min-width: 600px){
-    .layout-menu {
-        display: inline; 
-    }
-
-    .layout-hamburguer {
-        display: none;
-    }    
-}
-
-.layout-menu-links {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    font-size: 1.5rem;
-}
-
-.layout-menu-links li {
-    margin: 5px;
-}
-
-.layout-menu-links a:link {
-    text-decoration: none;
-    color: white;
-}
-
-.layout-menu-links a:visited {
-    text-decoration: none;
-    color: white;
-}

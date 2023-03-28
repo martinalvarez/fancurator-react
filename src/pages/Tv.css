@@ -1,0 +1,23 @@
+/*-
+tv-background {
+    background-image: url('../assets/tv-80s.jpg');
+}
+
+tv-wrapper {
+
+}
+*/
+
+.tv-video {
+    z-index: 1;
+    position: absolute;
+    width: 560px;
+    height: 315px;
+    left: 100px;
+    top: 100px;    
+}
+
+.tv-background {
+    opacity: 0.5;
+}
+

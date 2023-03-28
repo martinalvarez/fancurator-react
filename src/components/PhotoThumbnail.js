@@ -5,8 +5,8 @@ import './PhotoThumbnail.css';
 function PhotoThumbnail({ video }) {
     const navigate = useNavigate();
     const src = `https://i.ytimg.com/vi/${video.videoId}/hq720.jpg`;
-    const width = 1280 / 3;
-    const height = 720 / 3;
+    const width = 1280 / 4;
+    const height = 720 / 4;
 
     const [showCard, setShowCard] = useState(false);
 

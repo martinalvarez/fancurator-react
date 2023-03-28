@@ -30,6 +30,7 @@
 }
 
 .photo-thumbnail-wrapper {
+    align-self: center;
     position: relative;
 }
 

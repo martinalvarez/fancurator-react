@@ -1,0 +1,21 @@
+.design-container {
+    /* position: relative; */
+    border: 1px solid black;
+}
+.design-header {
+    border: 1px solid black;
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+}
+
+.design-main {
+    border: 1px solid black;
+    height: 100vh;    
+    /* position: relative; */
+    margin-top: 10vh;
+}
+
+.design-footer {
+    border: 1px solid black;
+}

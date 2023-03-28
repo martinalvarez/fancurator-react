@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react'; 
 import close from '../assets/close-window.png';
 import hamburger from '../assets/hamburger-menu.png';
-import './Layout.css';
+import './Design.css';
 
-function Layout({ children }) {
+function Design({ children }) {
     const [showMenu, setMenu] = useState(false);
 
     return (
@@ -12,20 +12,6 @@ function Layout({ children }) {
             <header className="layout-header">
                 <div className='layout-brand'>
                     <h1>Fan.Curator</h1>
-                </div>
-
-                <div className='layout-menu'>
-                    <ul className='layout-menu-links'>
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>                
-                        <li>
-                            <Link to="/about">About</Link>
-                        </li>
-                        <li>Videos</li>
-                        <li>Articles</li>
-                        <li>Contact</li>
-                    </ul>
                 </div>
 
                 {showMenu ?
@@ -67,4 +53,4 @@ function Layout({ children }) {
     );
 }
 
-export default Layout;
+export default Design;
