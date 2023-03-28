@@ -1,8 +1,15 @@
 .photo-thumbnail {
-    /* border: 1px solid white; */
+    cursor: pointer;    
     margin: 0.5rem;
-    /* border-radius: 1rem; */
-    cursor: pointer;
+}
+
+.photo-thumbnail-container {
+    align-self: center;
+    position: relative;
+}
+
+.photo-thumbnail-detail {
+    padding: 1rem;
 }
 
 .photo-thumbnail-hover {
@@ -10,30 +17,22 @@
     background-color: black;
 }
 
+.photo-thumbnail-hover-active {
+    border: 1px solid white;    
+    cursor: pointer;    
+    display: inline;
+    left: -10px;    
+    position: absolute;
+    top: -10px;
+    z-index: 2;
+}
+
 .photo-thumbnail-wrap {
     visibility: hidden;
 }
+
 @media screen and (min-width: 640px) {
     .photo-thumbnail-wrap {
         visibility: visible;        
     }
-}
-
-.photo-thumbnail-hover-active {
-    display: inline;
-    border: 1px solid white;
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    z-index: 2;
-    cursor: pointer;
-}
-
-.photo-thumbnail-wrapper {
-    align-self: center;
-    position: relative;
-}
-
-.detail {
-    padding: 1rem;
 }

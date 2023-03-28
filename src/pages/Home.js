@@ -1,6 +1,5 @@
-import Layout from './Layout';
+import Layout from '../components/layout/Layout';
 import PhotoCarousel from '../components/PhotoCarousel';
-import './Home.css';
 
 function Home() {
     return (

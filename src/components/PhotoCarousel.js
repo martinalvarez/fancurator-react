@@ -38,7 +38,6 @@ const videos = [
     {
         videoId: '0FQ3Ucml458',
     },    
-    
 ];
 
 function PhotoCarousel() {

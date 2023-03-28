@@ -1,7 +1,7 @@
-import { Link } from 'react-router-dom';
 import { useState } from 'react'; 
-import close from '../assets/close-window.png';
-import hamburger from '../assets/hamburger-menu.png';
+import close from  '../../assets/close-window.png';
+import hamburger from '../../assets/hamburger-menu.png';
+import Links from './Links';
 import './Layout.css';
 
 function Layout({ children }) {
@@ -15,32 +15,12 @@ function Layout({ children }) {
                 </div>
 
                 <div className='layout-menu'>
-                    <ul className='layout-menu-links'>
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>                
-                        <li>
-                            <Link to="/about">About</Link>
-                        </li>
-                        <li>Videos</li>
-                        <li>Articles</li>
-                        <li>Contact</li>
-                    </ul>
+                    <Links ulClass="layout-menu-links" />
                 </div>
 
                 {showMenu ?
                     <div className='layout-hamburguer-links'>
-                        <ul>
-                            <li>
-                                <Link to="/">Home</Link>
-                            </li>                
-                            <li>
-                                <Link to="/about">About</Link>
-                            </li>
-                            <li>Videos</li>
-                            <li>Articles</li>
-                            <li>Contact</li>
-                        </ul>
+                        <Links />
                     </div>  
                 :
                     null         

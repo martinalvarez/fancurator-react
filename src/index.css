@@ -1,14 +1,6 @@
-/*
 body {
-  background-color: black;
-  color: white;
-  box-sizing: border-box;
-}
-*/
-
-body {
+  color: white;  
   margin: 0;
-  background-color: white;
-  color: black;
+  background-color: black;
   box-sizing: border-box;
 }

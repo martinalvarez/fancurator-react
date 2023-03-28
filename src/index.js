@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import About from './pages/About';
-import Design from './pages/Design';
 import Home from './pages/Home';
 import Video from './pages/Video';
 import Tv from './pages/Tv';
@@ -16,7 +15,6 @@ root.render(
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/design" element={<Design />} />
           <Route path="/tv" element={<Tv />} />
           <Route path="/video/:videoId" element={<Video />} />
        </Routes>

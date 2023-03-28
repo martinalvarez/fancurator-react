@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import Layout from './Layout';
+import Layout from '../components/layout/Layout';
 import './Video.css';
 
 function Video() {
@@ -9,7 +9,7 @@ function Video() {
     return (
         <Layout>
             <div className='video-container'>
-                <div className='video'>
+                <div className='video-player'>
                     <iframe
                         width="100%"
                         height="100%"    

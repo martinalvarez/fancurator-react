@@ -23,7 +23,7 @@ function PhotoThumbnail({ video }) {
     }
 
     return (
-        <div className='photo-thumbnail-wrapper'>
+        <div className='photo-thumbnail-container'>
             <div
                 className="photo-thumbnail"
                 onClick={handleOnClick}
@@ -51,7 +51,8 @@ function PhotoThumbnail({ video }) {
                         width={width * 1.2}
                         height={height * 1.2}
                     />
-                    <div className='detail'>Recital * Audio Excelente * 1987</div>
+                    
+                    <div className='photo-thumbnail-detail'>Recital * Audio Excelente * 1987</div>
                 </div>        
             </div>
         </div>
